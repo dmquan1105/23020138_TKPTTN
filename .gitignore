@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.vscode/
+.ipynb_checkpoints/
+
+assign2026.pdf
+*.csv
+
+.Rhistory
+.RData
+.Rproj.user/
