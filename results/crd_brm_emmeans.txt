@@ -1,0 +1,14 @@
+ k  emmean lower.HPD upper.HPD
+ 3   0.740     0.736     0.744
+ 5   0.752     0.748     0.756
+ 10  0.755     0.750     0.759
+
+Point estimate displayed: median 
+HPD interval probability: 0.95 
+ contrast estimate lower.HPD upper.HPD
+ k3 - k5  -0.01225  -0.01850  -0.00589
+ k3 - k10 -0.01497  -0.02144  -0.00880
+ k5 - k10 -0.00266  -0.00923   0.00315
+
+Point estimate displayed: median 
+HPD interval probability: 0.95 

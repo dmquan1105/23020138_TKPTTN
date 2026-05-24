@@ -1,0 +1,11 @@
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = f1 ~ k, data = crd)
+
+$k
+            diff          lwr        upr     p adj
+5-3  0.012283959  0.004617089 0.01995083 0.0013399
+10-3 0.014962558  0.007295688 0.02262943 0.0001353
+10-5 0.002678599 -0.004988272 0.01034547 0.6657543
+

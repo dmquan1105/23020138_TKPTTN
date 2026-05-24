@@ -1,0 +1,46 @@
+
+Call:
+lm(formula = f1 ~ k * max_depth, data = crfd)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0162819 -0.0021583  0.0002122  0.0027162  0.0138585 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       0.0022527  0.0020104   1.121 0.265791    
+k5                0.0005485  0.0028431   0.193 0.847513    
+k10               0.0002668  0.0028431   0.094 0.925460    
+max_depth5        0.0623500  0.0028431  21.930  < 2e-16 ***
+max_depthNone     0.7374598  0.0028431 259.385  < 2e-16 ***
+k5:max_depth5     0.0018194  0.0040208   0.452 0.652122    
+k10:max_depth5    0.0004454  0.0040208   0.111 0.912066    
+k5:max_depthNone  0.0117355  0.0040208   2.919 0.004549 ** 
+k10:max_depthNone 0.0146957  0.0040208   3.655 0.000455 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.006357 on 81 degrees of freedom
+Multiple R-squared:  0.9997,	Adjusted R-squared:  0.9997 
+F-statistic: 3.179e+04 on 8 and 81 DF,  p-value: < 2.2e-16
+
+Analysis of Variance Table
+
+Response: f1
+            Df  Sum Sq Mean Sq    F value    Pr(>F)    
+k            2  0.0005  0.0003 6.6768e+00  0.002070 ** 
+max_depth    2 10.2762  5.1381 1.2713e+05 < 2.2e-16 ***
+k:max_depth  4  0.0008  0.0002 4.7288e+00  0.001764 ** 
+Residuals   81  0.0033  0.0000                         
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+                         2.5 %      97.5 %
+(Intercept)       -0.001747299 0.006252770
+k5                -0.005108441 0.006205365
+k10               -0.005390077 0.005923729
+max_depth5         0.056693092 0.068006897
+max_depthNone      0.731802941 0.743116746
+k5:max_depth5     -0.006180693 0.009819444
+k10:max_depth5    -0.007554653 0.008445485
+k5:max_depthNone   0.003735429 0.019735566
+k10:max_depthNone  0.006695663 0.022695800
